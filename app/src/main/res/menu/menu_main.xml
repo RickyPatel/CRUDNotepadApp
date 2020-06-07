@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.notestry5.MainActivity"
+
+    >
+   <!-- <item
+        android:id="@+id/LatestOnTop"
+        android:orderInCategory="100"
+        android:title="Latest On Top"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/OldestOnTop"
+        android:title="Oldest On Top" />
+    <item
+        android:id="@+id/star"
+        android:title="STARRED NOTES" />-->
+
+
+
+    <item
+        android:id="@+id/grid_layout"
+        android:title="Grid Layout"
+        android:icon="@drawable/ic_grid_on_black_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/add_new_note"
+        android:title="New Note"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/sign_out"
+        android:icon="@drawable/logout_clos"
+        android:title="Switch Account"
+        app:showAsAction="always"/>
+
+</menu>

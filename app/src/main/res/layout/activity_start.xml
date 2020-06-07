@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="153dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="WELCOME TO YOUR NOTES APP"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/start_log_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="22sp"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:text="Login"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/start_log_btn"
+        android:text="Register"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded" />
+
+</RelativeLayout>
